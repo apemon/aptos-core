@@ -5,7 +5,7 @@ variable "region" {
 
 variable "kubernetes_version" {
   description = "Version of Kubernetes to use for EKS cluster"
-  default     = "1.22"
+  default     = "1.21"
 }
 
 variable "k8s_api_sources" {
